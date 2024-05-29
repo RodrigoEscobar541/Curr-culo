@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./Css/EstiloWeb.css" media="screen and (min-width: 768px)"> <!--Link do Css Web-->
 </head>
 <body>
-    <header class="navegaçãoMobile"> <!--Apenas em Mobile-->
+    <header class="navegaçãoMobile"> <!--Botões, nome e contato apenas em Mobile-->
 
         <img id="FotoCell" src="./img/34.png" alt="Foto Rodrigo">
 
@@ -30,33 +30,33 @@
             <a class="informações" style="font-size: 22px" href="https://wa.me/5511986120014?text=Olá, Rodrigo.">Celular: (11) 9 8612-0014</a>
             <a class="informações" style="font-size: 22px" href="mailto:rodrigoegdfff@gmail.com?Subject=Hello%20again">E-mail: rodrigoegdff@gmail.com</a>
             <p class="informações" style="font-size: 28px">19 ANOS</p>
-            <p class="informações">Última Atualização:04/2024</p>
+            <p class="informações">Última Atualização:05/2024</p>
         </div>
     </header>
 
-    <header class="navegacaoWeb"> <!--Apenas em Web-->
+    <header class="navegacaoWeb"> <!--Botões apenas em Web-->
         <button class="btn" onclick="Navegar('A')">Sobre mim</button>
         <button class="btn" onclick="Navegar('B')">Situação atual</button>
         <button class="btn" onclick="Navegar('C')">Certificados</button>
         <button class="btn" onclick="Navegar('D')">Experiências</button>
-        <!--Botao curriculo--><a href="./curriculum.pdf" download class="btn" style="display: flex; text-decoration: none; align-items: center; text-align: center; vertical-align: middle; justify-content: center;">Baixar CV<img class="ImgClick" src="./img/clique.png"></a>
+        <!--Botao curriculo--><a target="_blank" href="./curriculum.pdf" download class="btn" style="display: flex; text-decoration: none; align-items: center; text-align: center; vertical-align: middle; justify-content: center;">Baixar CV<img class="ImgClick" src="./img/clique.png"></a>
     </header>
     
-    <section class="conteudo"><!--Informações do Web e Textos-->
+    <section class="conteudo"><!--Informações(nome e contatos) para WEB e todos os Textos-->
 
-        <div class="FotoEContato"> <!--None para Mobile-->
+        <div class="FotoEContato"> <!--Informações(nome e contatos) apenas em Web-->
             <img id="FotoWeb" src="./img/34.png" alt="Foto Rodrigo">
             <p class="informações" style="font-size: 48px;">Rodrigo Escobar</p>
             <p class="informações link" style="font-size: 18px; top: 50px;">
             <!--Linkedin--><img class="imgiconlink" style="vertical-align: middle;" src="./img/Icone de link.png" alt="IconLink"><a href="linkedin://profile/rodrigo-ro-escobar/" target="_blank"><u>Linkedin</u></a></p>
-            <a class="informações" style="font-size: 22px" href="https://wa.me/5511986120014?text=Olá, Rodrigo.">Celular: (11) 9 8612-0014</a>
-            <a class="informações" style="font-size: 22px" href="mailto:rodrigoegdfff@gmail.com?Subject=Hello%20again">E-mail: rodrigoegdff@gmail.com</a>
+            <a class="informações" style="font-size: 22px" href="https://wa.me/5511986120014?text=Olá, Rodrigo." target="_blank">Celular: (11) 9 8612-0014</a>
+            <a class="informações" style="font-size: 22px" href="mailto:rodrigoegdfff@gmail.com?Subject=Hello%20again" target="_blank">E-mail: rodrigoegdff@gmail.com</a>
             <p class="informações" style="font-size: 32px">19 ANOS</p>
-            <p class="informações" style="margin-bottom: 100%;font-size: 25px">Última Atualização:04/2024</p>
+            <p class="informações" style="margin-bottom: 100%;font-size: 25px">Última Atualização:05/2024</p>
         </div>
 
         <div class="textos">
-            <div class="A">
+            <div class="A"> <!--Sobre mim-->
                 <p class="Titulo"><strong>Objetivo</strong></p>
                 <p class="Txt">
                     <strong>
@@ -77,7 +77,7 @@
                     </strong>
                 </p>
             </div>
-            <div class="B">
+            <div class="B"> <!--Situação Atual-->
                 <p class="Titulo"><strong>Informações</strong></p>
                 <p class="Txt">
                     <strong>
@@ -87,27 +87,30 @@
                 <p class="Titulo"><strong>Nível de ensino</strong></p>
                 <p class="Txt">
                     <strong>
-                        Ensino Superior: Graduação em Engenharia de Software<br>Instituição: Uninter EAD<br>Ínicio: 02/2024        Conclusão 12/2027
+                        Ensino Superior: Graduação em Engenharia de Software<br>Instituição: Uninter EAD<br>Ínicio: 02/2024 <br> Conclusão 12/2027
                     </strong>
                     <strong style="margin-top: 100px;">
-                        Cursando Start 5.0  Design<br>Instituição: Escola Saga<br>Ínicio: 03/2023         Conclusão 09/2025
+                        
                     </strong>
                 </p>
             </div>
-            <div class="C">
+            <div class="C"> <!--Certificados-->
                 <p class="Titulo"><strong>Cursos</strong></p>
                 <p class="grid Txt ">
                     <strong>
-                        Unity 2D<br>Conclusão: Junho de 2018<br>Instituição: Happy  Code
-                    </strong>
+                        <u style="font-size: 35px;">Unity 2D</u><br>Conclusão: Junho de 2018<br>Instituição: Happy  Code
+                    </strong><br>
                     <strong>
-                        AutoCad 2D<br>Conclusão: Junho de 2022<br>Instituição: Udemy
-                    </strong>
+                        <u style="font-size: 35px;">AutoCad 2D</u><br>Conclusão: Junho de 2022<br>Instituição: Udemy
+                    </strong><br>
                     <strong>
-                        Modelagem Blender 3D<br>Conclusão Março de 2019<br>Instituição: Happy Code
-                    </strong>
+                        <u style="font-size: 35px;">Modelagem Blender 3D</u><br>Conclusão Março de 2019<br>Instituição: Happy Code
+                    </strong><br>
                     <strong>
-                        Exel Básico ao avançado<br>Conclusão: Setembro de 2022<br>Instituição: Udemy
+                        <u style="font-size: 35px;">Exel Básico ao avançado</u><br>Conclusão: Setembro de 2022<br>Instituição: Udemy
+                    </strong><br>
+                    <strong>
+                        <u style="font-size: 35px;">Arte Vetorial<br>Composição de imagens<br>Pintura Digital<br>Efeitos Visuais<br>Cenários Blender</u><br>Conclusão: Maio de 2024<br>Instituição: SAGA
                     </strong>
                 </p>
                 <p class="Titulo"><strong>Experiências Adicionais</strong></p>
@@ -117,7 +120,7 @@
                     </strong>
                 </p>
             </div>
-            <div class="D">
+            <div class="D"> <!--Experiências-->
                 <p class="Titulo"><strong>Fixos</strong></p>
                 <p class="Txt" style="display: flex;">
                     <strong >
