@@ -1,8 +1,6 @@
 /*Hambuguer = 3 tracinhos*/
 body, html {
-    background: rgb(2,0,36);
     background: linear-gradient(180deg, rgb(4, 0, 71) 0%, rgb(11, 35, 131) 20%);
-    height: 100%;
     margin: 0;
     padding: 0;
     display: grid;
@@ -49,6 +47,7 @@ a:hover{
     left: -34%;
 }
 .btnMob{ /*estilo dos botoes em Web*/
+
     font-family: cooper black, Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size:18px;
@@ -57,7 +56,7 @@ a:hover{
     padding-right:15px;
     color: #e0c698;
     background-image: linear-gradient(to bottom, #2a3665, #553b8c);
-    width: auto;
+    width: 100%;
     display: flex;
     border:none;
     cursor:pointer;
@@ -79,8 +78,8 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 0 auto;
-    height: 300px;
+    
+    
     display: block; /*tem que ser block*/
 }
 .informações{ /*estilo dos textos de informação*/
@@ -100,7 +99,7 @@ a:hover{
     text-align: center;
     font-family: cooper black;
     margin-bottom: 0px;
-    margin-top: 15%;
+    padding-top: 13%;
     text-decoration: underline;
 }
 .textos{ /*Todos os textos de todos os botões*/
